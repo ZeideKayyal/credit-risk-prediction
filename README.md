@@ -1,6 +1,6 @@
 # Credit Risk Prediction
 
-This project develops and compares multiple machine learning models to classify loan defaults using the LendingClub dataset. It explores data preprocessing, feature engineering, class imbalance handling, and model evaluation to build a robust credit risk prediction pipeline.
+This project develops and compares multiple machine learning models to classify loan defaults using the LendingClub dataset. It explores data preprocessing, feature engineering, class imbalance handling, and model evaluation to build a robust credit risk prediction pipeline. This project is ongoing.
 
 ## Project Overview
 The goal is to predict whether a loan applicant will default or repay based on historical application and credit data. We evaluate and compare three models:
@@ -26,6 +26,7 @@ The goal is to predict whether a loan applicant will default or repay based on h
   - ROC Curve and AUC score
 
 ## Project Structure
+'''
 credit-risk-prediction/
 │
 ├── data/                  # (ignored in Git) Large datasets stored locally
@@ -37,6 +38,7 @@ credit-risk-prediction/
 ├── .gitignore             # Ensures large data files are not pushed to GitHub
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
+'''
 
 ## Results Summary
 | Model                | ROC AUC | Accuracy | Notes |
