@@ -54,9 +54,9 @@ Open Jupyter Notebook or Jupyter Lab:
 jupyter notebook
 
 Then execute:
-- 01_logistic_regression.ipynb
-- 02_random_forest.ipynb
-- 03_xgboost.ipynb
+- 02_logistic_regression.ipynb
+- 03_random_forest.ipynb
+- 04_xgboost.ipynb
 
 ## Skills and Tools Used
 Languages and Libraries: Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib  
