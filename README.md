@@ -25,27 +25,12 @@ The goal is to predict whether a loan applicant will default or repay based on h
   - Classification Report
   - ROC Curve and AUC score
 
-## Project Structure
-'''
-credit-risk-prediction/
-│
-├── data/                  # (ignored in Git) Large datasets stored locally
-├── notebooks/             # Jupyter notebooks for each model
-│   ├── 01_logistic_regression.ipynb
-│   ├── 02_random_forest.ipynb
-│   ├── 03_xgboost.ipynb
-│
-├── .gitignore             # Ensures large data files are not pushed to GitHub
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
-'''
-
 ## Results Summary
 | Model                | ROC AUC | Accuracy | Notes |
 |----------------------|---------|----------|-------|
-| Logistic Regression  | 0.716   | 75%      | High recall for defaulters but high false positive rate |
-| Random Forest        | 0.716   | 75%      | Balanced precision-recall, robust performance |
-| XGBoost              | 0.724   | 69%      | Improved minority recall, optimized threshold |
+| Logistic Regression  | 0.71   | 65%      | High recall for defaulters but high false positive rate |
+| Random Forest        | 0.72   | 75%      | Balanced precision-recall, robust performance |
+| XGBoost              | 0.72   | 69%      | Improved minority recall, optimized threshold |
 
 ## Installation and Usage
 ### 1. Clone the Repository
